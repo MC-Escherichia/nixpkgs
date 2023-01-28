@@ -1,4 +1,4 @@
-{ lib, stdenv, fetchurl }:
+{ lib, stdenv, fetchurl, glibc }:
 
 stdenv.mkDerivation rec {
   pname = "unixODBC";
